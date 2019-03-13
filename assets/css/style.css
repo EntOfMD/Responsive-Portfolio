@@ -37,8 +37,7 @@
   border-left: 0.1px solid var(--main-header-border-color);
   border-right: 0.1px solid var(--main-header-border-color);
 }
-html,
-body {
+html {
   background-image: url("../images/background.png");
   height: 100%;
   font-family: var(--main-font-family);
@@ -213,7 +212,8 @@ label {
   right: -150px;
   bottom: 50px;
   padding: 0 25px 0 25px;
-  background-color: yellow;
+  background-color: var(--main-bg-heading-color);
+  color: var(--main-header-bg-color) !important;
 }
 
 .push-soft {
